@@ -3,6 +3,75 @@
 
 <title>Form Website</title>
 <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(57, 59, 185);
+  color: black;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  text-align:center;
+}
+
+.container {
+  border-radius: 7px;
+  background-color: #31444d;
+  padding: 50px;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color:#9ded41 ;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+
+  background-color: rgb(141, 138, 138);
+  color: black;
+}
+
+.header a.active {
+  background-color:green;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
 body{
 background:#BA68C8;
 }
@@ -173,12 +242,7 @@ alert("plz enter other field");
          width:100% 
          } 
   
-         input[type="text"] 
-         { 
-         background-color:white; 
-         border: solid black 2px; 
-         width:100% 
-         } 
+        
       </style> 
    </head> 
    <!-- create table -->

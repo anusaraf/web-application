@@ -78,13 +78,25 @@ background:#BA68C8;
 table, td {
   border: 1px solid black;
 }
+  
+  @media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 </style>
 
 
 </head>
 
 <body>
-<h1 style="color:red;background:skyblue;text-align:center;">Medico Form System</h1>
+<h1 style="color:red;background-color:skyblue;text-align:center;">Medico Form System</h1>
 <p id="demo"></p>
 
 <script>

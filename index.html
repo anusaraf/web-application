@@ -141,23 +141,27 @@ alert(" YOUR DATA IS STORED SUCCESSFULLY ");
 
 
   <p style="color:black;background:lightblue"><b><center> FORM  VALIDATION </center></b></p>
-<center>
-<lable style="color:black;background:orange;align:right">MEDICINAL  STOKE  REQUIRE*</lable><br>
-<input type="text" name="Name" id="Name placeholder:NAME"><br></br>
 
-<lable style="color:black;background:orange">NUMBER  OF  MEDICINE (AMOUNT)*</lable><br>
-<input type="text" name="Contact" id="Contact  placeholder:CONTACT NO"><br></br>
+ <div class="container" >
+<div class="container-center" style="max-width:500px;margin:auto;">
+  <form action="tq.png" >
+    <label for="name"></label>
+    <input type="text" id="fname" name="name" placeholder="NAME" type="text" tabindex="1" required autofocus>
 
-<lable style="color:black;background:orange">DISTRIBUTOR  NAME*</lable><br>
-<input type="text" name="Medicine" id="Medicine  placeholder:MEDICINE"><br></br>
+    <label for="Email-id"></label>
+    <input type="text" id="e-mail" name="E-mail" placeholder="EMAIL-ID" type="email" tabindex="2" required>
 
-<lable style="color:black;background:orange">BILL  TYPE*</lable><br>
-<input type="text" name="Amount" id="Amount  placeholder:AMOUNT"><br></br>
+    <label for="Phone No"></label>
+    <input type="text" id="phone no" name="Phone No" placeholder="PHONE NO" type="tel" tabindex="3" required>
 
-<lable style="color:black;background:orange"> MESSAGE </lable><br>
-<textarea rows="10" cols="40" name="Message" id="Message  placeholder:MESSAGE"></textarea><br></br>
-<button type="button" onclick="myFunction()">submit</button>
-</center>
+    <label for="subject"></label>
+    <textarea id="Message" name="subject" placeholder="MESSAGE" tabindex="5" required style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit" onClick="Submit"  style="margin-left: 40%">
+  </form>
+</div>
+  </div>
+
 
 
 </div>
@@ -276,7 +280,7 @@ alert(" YOUR DATA IS STORED SUCCESSFULLY ");
 
 
 
-<h3 style="color:blue"><marquee> THANKING YOU </marqee> </h3>
+     <h3 style="color:blue"><marquee> <b> THANKING YOU </b> </marquee> </h3>
 
 
 </body>
